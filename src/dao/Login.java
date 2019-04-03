@@ -1,7 +1,11 @@
 package dao;
 
 import util.SQLUtil;
-
+/**
+ * 操作用户信息以及角色
+ * @author 开发
+ *
+ */
 public class Login {
 	
 	//检测用户登录信息是否合法，合法这返回true

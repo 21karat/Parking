@@ -1,7 +1,11 @@
 package dao;
 import java.util.*;
 import util.SQLUtil;
-        
+/**
+ * 操作零时车主出入记录表      
+ * @author 开发
+ *
+ */
 public class Temp {
 
 	//获取零时车主出入记录表信息列表

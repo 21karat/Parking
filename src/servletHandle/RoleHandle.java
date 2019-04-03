@@ -10,7 +10,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import java.util.*;
-
+/**
+ * 角色
+ * @author 开发
+ *
+ */
 @SuppressWarnings("serial")
 public class RoleHandle extends HttpServlet {
 
@@ -23,19 +27,19 @@ public class RoleHandle extends HttpServlet {
 		this.response=response;
 		this.request=request;
 		int handleType=Integer.parseInt(request.getParameter("type").toString());
-					switch (handleType) {
-					case 1://类型1代表删除表中的数据
-						deleteEntity();
-						break;
-					case 4://类型4代表获取表中信息
-						getEntity();
-						break;
-					case 5://类型5代表根据查询条件获取表中信息
-						getEntityByWhere();
-						break;
-					default:
-						break;
-					}
+			switch (handleType) {
+				case 1://类型1代表删除表中的数据
+					deleteEntity();
+					break;
+				case 4://类型4代表获取表中信息
+					getEntity();
+					break;
+				case 5://类型5代表根据查询条件获取表中信息
+					getEntityByWhere();
+					break;
+				default:
+					break;
+			}
 	}
 	
 	//通过表单post方式传值 将进入doPost函数（method="post"）
@@ -43,16 +47,16 @@ public class RoleHandle extends HttpServlet {
 		this.request=request;
 		this.response=response;
 		int handleType=Integer.parseInt(request.getParameter("type").toString());//将前台页面传过来的type类型转化成整型
-					switch (handleType) {
-					case 2://类型2代表更新表中的数据
-						updateEntity();
-						break;
-					case 3://类型3代表向表中添加数据
-						insertEntity();
-						break;
-					default:
-						break;
-					}
+			switch (handleType) {
+				case 2://类型2代表更新表中的数据
+					updateEntity();
+					break;
+				case 3://类型3代表向表中添加数据
+					insertEntity();
+					break;
+				default:
+					break;
+			}
 	}
 
 	//删除数据操作

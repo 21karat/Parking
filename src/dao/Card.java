@@ -3,7 +3,11 @@ package dao;
 import java.util.*;
 
 import util.SQLUtil;
-        
+/**
+ * 操作IC卡表      
+ * @author 开发
+ *
+ */
 public class Card {
 
 	//获取IC卡表信息列表

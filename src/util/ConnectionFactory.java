@@ -4,7 +4,11 @@ import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.Properties;
-
+/**
+ * 连接数据库工具类
+ * @author 开发
+ *
+ */
 public class ConnectionFactory {
 	private static String user;
 	private static String pwd;

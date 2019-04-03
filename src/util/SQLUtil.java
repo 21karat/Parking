@@ -2,7 +2,11 @@ package util;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * DB执行SQL语句工具类
+ * @author 开发
+ *
+ */
 public class SQLUtil {
 	@SuppressWarnings("finally")
 	//执行非查询语句（delete、update、insert）

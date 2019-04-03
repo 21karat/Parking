@@ -3,7 +3,11 @@ package dao;
 import java.util.*;
 
 import util.SQLUtil;
-        
+/**
+ * 操作角色表       
+ * @author 开发
+ *
+ */
 public class Role {
 
 	//获取角色表信息列表

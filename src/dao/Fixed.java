@@ -2,7 +2,11 @@ package dao;
 
 import java.util.*;
 import util.SQLUtil;
-        
+/**
+ * 操作固定车主出入记录表        
+ * @author 开发
+ *
+ */
 public class Fixed {
 
 	//获取固定车主出入记录表信息列表

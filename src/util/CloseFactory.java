@@ -3,7 +3,11 @@ package util;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
-
+/**
+ * 关闭数据库连接工具类
+ * @author 开发
+ *
+ */
 public class CloseFactory {
 	
 	//关闭Connection conn,Statement sm

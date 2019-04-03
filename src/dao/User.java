@@ -3,7 +3,11 @@ package dao;
 import java.util.*;
 
 import util.SQLUtil;
-        
+/**
+ * 操作用户表       
+ * @author 开发
+ *
+ */
 public class User {
 
 	//获取用户表信息列表

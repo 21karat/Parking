@@ -1,6 +1,5 @@
 package servletHandle;
 
-
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -9,7 +8,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-
+/**
+ * 登陆
+ * @author 开发
+ *
+ */
 @SuppressWarnings("serial")
 public class LoginHandle extends HttpServlet {
 
